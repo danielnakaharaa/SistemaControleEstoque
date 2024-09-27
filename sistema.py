@@ -40,16 +40,14 @@ def Menu():
         elif opcao == "9":
             CalcularTotalEstoque()
         elif opcao == "10":
-            RelatorioGeralEstoque()  # Função de relatório geral
+            RelatorioGeralEstoque()  
         elif opcao == "11":
             break
         else:
             print("Opção inválida")
 
 def Listar():
-    """
-    Função que carrega um estoque inicial e exibe os produtos no formato básico.
-    """
+  
     estoque_inicial = (
         "Notebook Dell;201;15;3200.00;4500.00#"
         "Notebook Lenovo;202;10;2800.00;4200.00#"
